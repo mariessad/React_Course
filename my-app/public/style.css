@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: poppins, sans-serif;
   background-color: #f3f3f3;
 }
 
@@ -16,4 +16,31 @@ nav {
 }
 .nav--icon {
   max-width: 100px;
+}
+
+/* Hero section */
+
+.hero--div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero--img {
+  min-width: 500px;
+  max-width: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero--text {
+  margin-left: 36px;
+}
+.hero--text > h1 {
+  font-size: 2.5rem;
+}
+
+.hero--text > p {
+  max-width: 280px;
 }
