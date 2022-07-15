@@ -5,5 +5,15 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #d5dce7;
+  background-color: #f3f3f3;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  box-shadow: 8px 8px 10px rgb(218, 218, 218);
+  padding: 20px 36px;
+}
+.nav--icon {
+  max-width: 100px;
 }
