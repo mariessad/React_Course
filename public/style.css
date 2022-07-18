@@ -24,6 +24,9 @@ nav {
 .bold {
   font-weight: bold;
 }
+section {
+  padding: 20px;
+}
 /* Hero section */
 
 .hero--div {
@@ -52,14 +55,30 @@ nav {
 
 /* card section */
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
 .card {
   width: 175px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card--img {
   width: 100%;
+  height: 233.984px;
   border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats {
@@ -69,4 +88,8 @@ nav {
 
 .card--star {
   height: 12px;
+}
+
+.card--price {
+  margin-top: auto;
 }
