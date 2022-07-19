@@ -11,6 +11,9 @@ export default function App() {
       <Card
         key={card.id}
         card={card}
+        //another method is to use the spread operator {...card}
+        //and then remove the .card notation in the Card component
+
         // img={card.coverImg}
         // rating={card.stats.rating}
         // reviewCount={card.stats.reviewCount}
